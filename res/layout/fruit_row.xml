@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ The MIT License (MIT)
+  ~ Copyright (c) 2013 longkai(龙凯)
+  ~ The software shall be used for good, not evil.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_margin="@dimen/default_margin"
+		android:padding="@dimen/default_padding"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+	<ImageView
+			android:id="@+id/image"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:scaleType="fitCenter"
+			android:contentDescription="@string/fruits"
+			/>
+
+	<TextView
+			android:id="@android:id/content"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:textAppearance="?android:textAppearanceMedium"
+			/>
+</LinearLayout>

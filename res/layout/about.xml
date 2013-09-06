@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ The MIT License (MIT)
+  ~ Copyright (c) 2013 longkai(龙凯)
+  ~ The software shall be used for good, not evil.
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	<LinearLayout
+			android:orientation="vertical"
+			android:padding="@dimen/default_padding"
+			android:layout_margin="@dimen/default_margin"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		<ImageView
+				android:id="@android:id/icon"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:scaleType="fitCenter"
+				android:paddingTop="30dp"
+				android:paddingBottom="@dimen/default_padding"
+				android:src="@drawable/ic_launcher"
+				/>
+
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="@string/app_name"
+				android:textAppearance="?android:textAppearanceLarge"
+				/>
+
+<!--
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal"
+				android:text="@string/app_desc"
+				android:textAppearance="?android:textAppearanceMedium"
+				/>
+-->
+
+		<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="center_horizontal"
+				android:paddingBottom="@dimen/default_padding"
+				android:textAppearance="?android:textAppearanceMedium"
+				android:text="@string/wish"
+				/>
+
+		<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/holo_orange_dark"
+				/>
+
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="@dimen/default_padding"
+				android:autoLink="web"
+				android:gravity="center_horizontal"
+				android:text="@string/paper_scheme"
+				android:textAppearance="?android:textAppearanceMedium"
+				/>
+
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:autoLink="web"
+				android:paddingBottom="@dimen/default_padding"
+				android:gravity="center_horizontal"
+				android:text="@string/paper_design"
+				android:textAppearance="?android:textAppearanceMedium"
+				/>
+
+		<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/holo_orange_dark"
+				/>
+
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:autoLink="all"
+				android:paddingTop="@dimen/default_padding"
+				android:paddingBottom="@dimen/default_padding"
+				android:text="@string/copyright"
+				/>
+
+
+		<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/holo_orange_dark"
+				/>
+
+		<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:autoLink="all"
+				android:paddingTop="@dimen/default_padding"
+				android:gravity="center_horizontal"
+				android:text="@string/app_design"
+				/>
+
+
+		<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:gravity="center_horizontal"
+				android:autoLink="all"
+				android:text="@string/app_author"
+				/>
+
+		<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:autoLink="all"
+				android:gravity="center_horizontal"
+				android:text="@string/image_design"
+				/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:paddingTop="@dimen/default_padding"
+			android:paddingBottom="10dp"
+			android:gravity="center_horizontal"
+			android:layout_height="wrap_content">
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/sao"
+					android:paddingRight="@dimen/default_padding"
+					android:scaleType="center"
+					/>
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/lzf"
+					android:paddingRight="@dimen/default_padding"
+					android:scaleType="center"
+					/>
+
+			<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/lk"
+					android:scaleType="center"
+					/>
+
+			</LinearLayout>
+
+
+		<!--
+				<View
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="@color/holo_orange_dark"
+						/>
+		-->
+
+	</LinearLayout>
+
+</ScrollView>

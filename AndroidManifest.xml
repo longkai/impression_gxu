@@ -4,18 +4,32 @@
 		android:versionCode="1"
 		android:versionName="1.0">
 
-	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" android:maxSdkVersion="18" />
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16" android:maxSdkVersion="18" />
 
 	<application
 			android:label="@string/app_name"
-			android:icon="@drawable/ic_launcher">
+			android:theme="@style/Theme.AppCompat.Light"
+			android:icon="@drawable/ic_launcher"
+			android:name="edu.gxu.impression.app.App">
 		<activity
 				android:name=".HelloActivity"
-				android:label="@string/app_name">
+				android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+				android:label="@string/app_name"
+				android:noHistory="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+		<activity android:name=".CardActivity"
+				android:launchMode="singleTask"
+				/>
+		<activity android:name=".PagerArticleActivity" />
+		<activity android:name=".ArticleActivity" />
+		<activity android:name=".ListItemsActivity" />
+		<activity android:name=".SoundsMagzineActivity" />
+		<activity android:name=".AboutActivity"
+				android:theme="@style/Theme.AppCompat"
+				 />
 	</application>
 </manifest>
